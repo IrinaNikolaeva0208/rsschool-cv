@@ -2,7 +2,9 @@
 
 ## Contact info:
 __Phone:__ +375 25 629-10-75
+
 __Email:__ taffy.grrr@gmail.com
+
 __GitHub:__ IrinaNikolaeva0208
 
 ## About myself:
