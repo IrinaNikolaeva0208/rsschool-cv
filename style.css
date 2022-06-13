@@ -1,3 +1,69 @@
 body {
-    background-color: chartreuse;
+    background-color: rgba(99, 169, 169, 0.285);
+}
+
+main {
+    display: flex;
+    border: solid 1px;
+    width: 1000px;
+    height: 1200px;
+    margin: auto;
+    box-shadow: 0 0 10px 15px rgb(122, 122, 122);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: darkslategrey;
+}
+
+nav {
+    margin: 15px 10% ;
+    padding: auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.lside {
+    width: 1000px;
+    background-color: rgb(66, 66, 66);
+}
+
+img {
+    width: 100%;
+}
+
+.rside {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    padding: 5%;
+}
+
+.info h2 {
+    text-align: right;
+    color: darkslategrey;
+    font-size: 36px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 20px auto;
+}
+
+div {
+    display: block;
+}
+
+pre {
+    background-color: rgb(219, 219, 219);
 }

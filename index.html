@@ -8,6 +8,65 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <main>
+        <div class="lside">
+            <img src="me.jpg" alt="Irina Nikolaeva">
+            <h2>Contacts</h2>
+            <ul>
+                <li>+375 (25) 629-10-75</li>
+                <li>taffy.grrr@gmail.com</li>
+                <li>ira_nikss</li>
+                <li>ira_ss#9531</li>
+            </ul>
+            <h2>Education</h2>
+            <ul>
+                <li>Belarusian State University</li>
+                <li>HTML/CSS course, Stepik</li>
+            </ul>
+        </div>
+        <div class="rside">
+            <header>
+                <nav>
+                    <a href="#about">about me</a>
+                    <a href="#skill">skills</a>
+                    <a href="#code">code example</a>
+                    <a href="#lang">languages</a>
+                </nav>
+            </header>   
+            <h1>Irina Nikolaeva</h1>
+            <div class="info">
+                <h2 id="about">About me</h2>
+                <span>I'm the second-year student of the BSU (Faculty of radiophysics and computer technologies). To be honest, I hated programming at school, but after entering the university I understood that it can be very interesting. If to speak about my traits of character, I consider myself to be responsible, responsive, honest and friendly :)</span>
+                <h2 id="skill">Skills</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript Basics</li>
+                    <li>C++ Basics</li>
+                    <li>Java Basics</li>
+                    <li>Git, GitHub</li>
+                </ul>
+                <h2 id="code">Code Example</h2>
+                <pre>
+                    <code>
+                        function binary(n) {
+                            let bin = [];
+                            while (n != 0) {
+                                bin.push(String(n % 2));
+                                n = Math.trunc(n / 2);
+                            }
+                            bin = bin.reverse();
+                            return bin.join("");
+                        }
+                    </code>
+                </pre>
+                <h2 id="lang">Languages</h2>
+                <ul>
+                    <li>Russian (native)</li>
+                    <li>Belarusian (native)</li>
+                    <li>English (Intermediate)</li>
+                </ul>
+            </div>
+            <footer></footer>
+        </div>
+    </main>
 </body>
 </html>
