@@ -1,14 +1,13 @@
 body {
-    background-color: rgba(99, 169, 169, 0.285);
+    background-color: #63a9a949;
 }
 
 html {
     scroll-behavior: smooth; 
-  }
+}
 
 main {
     display: flex;
-    border: solid 1px;
     width: 1000px;
     height: 1300px;
     margin: auto;
@@ -45,7 +44,7 @@ nav a {
 
 .lside {
     width: 1000px;
-    background-color: rgb(66, 66, 66);
+    background-color: #424242;
 }
 
 .lside > img {
@@ -57,6 +56,11 @@ nav a {
     flex-direction: column;
     justify-content: space-between;
     font-size: 20px;
+}
+
+ul {
+    list-style: square;
+    line-height: 30px;
 }
 
 .lside span {
@@ -71,13 +75,31 @@ nav a {
     font-family: 'Acme', sans-serif;
 }
 
+.cont {
+line-height: 40px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    vertical-align: middle;
+} 
+
+.cont img {
+    
+    vertical-align: middle;
+}
+
+
 .info {
     padding: 5%;
 }
 
 .info h2 {
     text-align: right;
-    color: darkslategrey;
+    color: #2f4f4f;
     font-size: 36px;
     font-family: 'Acme', sans-serif;
 }

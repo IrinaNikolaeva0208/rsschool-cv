@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body>
     <main>
@@ -19,12 +19,24 @@
             <img src="assets/img/me.jpg" alt="Irina Nikolaeva">
             <span>
             <h2 id="cont">Contacts</h2>
-            <ul class="cont">
-                <li><img src="assets/svg/phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478.svg">+375 (25) 629-10-75</li>
-                <li><img src="assets/svg/socialemail_101876.svg">taffy.grrr@gmail.com</li>
-                <li><img src="assets/svg/Vk.com_icon-icons.com_55781.svg">ira_nikss</li>
-                <li><img src="assets/svg/discord_icon_130958.svg">ira_ss#9531</li>
-            </ul>
+            <table class="cont">
+                <tr>
+                    <td><img src="assets/svg/phone-call-auricular-symbol-in-black_icon-icons.com_56483.svg" width="25px"></td>
+                    <td>+375 (25) 629-10-75</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/svg/iconfinder-email-4661594_122466.svg" width="30px"></td>
+                    <td>taffy.grrr@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/svg/Vk.com_icon-icons.com_55781.svg" width="30px"></td>
+                    <td>ira_nikss</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/svg/discord_icon_130958.svg" width="30px"></td>
+                    <td>ira_ss#9531</td>
+                </tr>
+            </table>
             <h2 id="edu">Education</h2>
             <ul>
                 <li>Belarusian State University</li>
@@ -57,18 +69,17 @@
                 </ul>
                 <h2 id="code">Code Example</h2>
                 <pre>
-                    <code>
-                        function binary(n) {
-                            let bin = [];
-                            while (n != 0) {
-                                bin.push(String(n % 2));
-                                n = Math.trunc(n / 2);
-                            }
-                            bin = bin.reverse();
-                            return bin.join("");
-                        }
-                    </code>
-                </pre>
+    <code>
+        function binary(n) {
+            let bin = [];
+            while (n != 0) {
+                bin.push(String(n % 2));
+                n = Math.trunc(n / 2);
+            }
+            bin = bin.reverse();
+            return bin.join("");
+        }</code>
+                    </pre>
                 <h2 id="lang">Languages</h2>
                 <ul>
                     <li>Russian (native)</li>
