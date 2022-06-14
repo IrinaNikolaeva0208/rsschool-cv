@@ -5,30 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <main>
         <div class="lside">
-            <img src="me.jpg" alt="Irina Nikolaeva">
-            <h2>Contacts</h2>
-            <ul>
-                <li>+375 (25) 629-10-75</li>
-                <li>taffy.grrr@gmail.com</li>
-                <li>ira_nikss</li>
-                <li>ira_ss#9531</li>
+            <img src="assets/img/me.jpg" alt="Irina Nikolaeva">
+            <span>
+            <h2 id="cont">Contacts</h2>
+            <ul class="cont">
+                <li><img src="assets/svg/phone-symbol-of-an-auricular-inside-a-circle_icon-icons.com_56478.svg">+375 (25) 629-10-75</li>
+                <li><img src="assets/svg/socialemail_101876.svg">taffy.grrr@gmail.com</li>
+                <li><img src="assets/svg/Vk.com_icon-icons.com_55781.svg">ira_nikss</li>
+                <li><img src="assets/svg/discord_icon_130958.svg">ira_ss#9531</li>
             </ul>
-            <h2>Education</h2>
+            <h2 id="edu">Education</h2>
             <ul>
                 <li>Belarusian State University</li>
                 <li>HTML/CSS course, Stepik</li>
             </ul>
+        </span>
         </div>
         <div class="rside">
             <header>
                 <nav>
                     <a href="#about">about me</a>
+                    <a href="#cont">contacts</a>
                     <a href="#skill">skills</a>
+                    <a href="#edu">education</a>
                     <a href="#code">code example</a>
                     <a href="#lang">languages</a>
                 </nav>
@@ -38,6 +48,7 @@
                 <h2 id="about">About me</h2>
                 <span>I'm the second-year student of the BSU (Faculty of radiophysics and computer technologies). To be honest, I hated programming at school, but after entering the university I understood that it can be very interesting. If to speak about my traits of character, I consider myself to be responsible, responsive, honest and friendly :)</span>
                 <h2 id="skill">Skills</h2>
+                
                 <ul>
                     <li>HTML, CSS, JavaScript Basics</li>
                     <li>C++ Basics</li>
@@ -65,7 +76,11 @@
                     <li>English (Intermediate)</li>
                 </ul>
             </div>
-            <footer></footer>
+            <footer>
+                <a href="https://github.com/IrinaNikolaeva0208"><img src="assets/svg/github-logo_icon-icons.com_73546.svg" alt="GitHub"></a>
+                <p>© 2022 </p>
+                <a id="course" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg"></a>
+            </footer>
         </div>
     </main>
 </body>

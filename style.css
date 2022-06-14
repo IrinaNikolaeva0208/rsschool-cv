@@ -2,14 +2,18 @@ body {
     background-color: rgba(99, 169, 169, 0.285);
 }
 
+html {
+    scroll-behavior: smooth; 
+  }
+
 main {
     display: flex;
     border: solid 1px;
     width: 1000px;
-    height: 1200px;
+    height: 1300px;
     margin: auto;
     box-shadow: 0 0 10px 15px rgb(122, 122, 122);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     background-color: white;
 }
 
@@ -20,15 +24,23 @@ header {
 }
 
 nav {
-    margin: 15px 10% ;
-    padding: auto;
+  margin: 20px;
+}
+
+li img {
+    width: 30px;
+    height: 30px;
+}
+
+.cont {
+    list-style: none;
 }
 
 nav a {
     text-decoration: none;
     color: white;
-    padding: 10px;
     font-size: 24px;
+    padding: 8px;
 }
 
 .lside {
@@ -36,13 +48,27 @@ nav a {
     background-color: rgb(66, 66, 66);
 }
 
-img {
+.lside > img {
     width: 100%;
 }
 
 .rside {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.lside span {
+    color: white;
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.lside h2 {
+    padding-left: 20px;
+    font-size: 36px;
+    font-family: 'Acme', sans-serif;
 }
 
 .info {
@@ -53,11 +79,13 @@ img {
     text-align: right;
     color: darkslategrey;
     font-size: 36px;
+    font-family: 'Acme', sans-serif;
 }
 
 h1 {
     font-size: 48px;
-    margin: 20px auto;
+    margin: 20px auto 0;
+    font-family: 'Acme', sans-serif;
 }
 
 div {
@@ -66,4 +94,20 @@ div {
 
 pre {
     background-color: rgb(219, 219, 219);
+    text-align: left;
+}
+
+footer img {
+    width: 70px;
+    height: 50px;
+}
+
+footer {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+}
+
+footer a {
+    margin: 0 10px;
 }
