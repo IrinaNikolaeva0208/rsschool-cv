@@ -11,8 +11,86 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <title>CV</title>
 </head>
 <body>
+    <main>
+        <div class="lside">
+            <img src="assets/img/me.jpg" alt="Irina Nikolaeva">
+            <h2 id="cont">Contacts</h2>
+            <ul class="cont">
+                <li><img src="assets/svg/phone-call-auricular-symbol-in-black_icon-icons.com_56483.svg" alt="phone">+375 (25) 629-10-75</li>
+                <li><img src="assets/svg/iconfinder-email-4661594_122466.svg"  alt="email">taffy.grrr@gmail.com</li>
+                <li><img src="assets/svg/Vk.com_icon-icons.com_55781.svg"  alt="vk">nikol_iss</li>
+                <li><img src="assets/svg/discord_icon_130958.svg"  alt="discord">ira_ss#9531</li>
+            </ul>
+            <h2 id="edu">Education</h2>
+            <ul>
+                <li>Belarusian State University</li>
+                <li>JS/FE Pre-school, The Rolling Scopes School</li>
+                <li>HTML/CSS course, Stepik</li>
+                <li>SQL course, Stepik</li>
+            </ul>
+            <h2 id="lang">Languages</h2>
+                <ul>
+                    <li>Russian (native)</li>
+                    <li>Belarusian (native)</li>
+                    <li>English (Intermediate)</li>
+                </ul>
+        </div>
+        <div class="rside">
+            <header>
+                <nav>
+                    <ul>
+                        <li><a href="#about">about me</a></li>
+                        <li><a href="#cont">contacts</a></li>
+                        <li><a href="#skill">skills</a></li>
+                        <li><a href="#edu">education</a></li>
+                        <li><a href="#code">code example</a></li>
+                        <li><a href="#proj">projects</a></li>
+                        <li><a href="#lang">languages</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1>Irina Nikolaeva</h1>
+            <div class="info">
+                <h2 id="about">About me</h2>
+                <span>I'm the third-year student of the BSU (Faculty of radiophysics and computer technologies). To be honest, I hated programming at school, but after entering the university I understood that it can be very interesting. If to speak about my traits of character, I consider myself to be responsible, responsive, honest and friendly :)</span>
+                <h2 id="skill">Skills</h2>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>C++ Basics</li>
+                    <li>Java Basics</li>
+                    <li>SQL</li>
+                    <li>Git, GitHub</li>
+                </ul>
+                <h2 id="code">Code Example</h2>
+                <pre>
+    <code>
+        function binary(n) {
+            let bin = [];
+            while (n != 0) {
+                bin.push(String(n % 2));
+                n = Math.trunc(n / 2);
+            }
+            bin = bin.reverse();
+            return bin.join("");
+        }</code>
+                    </pre>
+                <h2 id="proj">Projects</h2>
+                <ul>
+                    <li><a href="https://rolling-scopes-school.github.io/irinanikolaeva0208-JSFEPRESCHOOL2022Q2/travel/">Travel Portal</a></li>
+                    <li><a href="https://rolling-scopes-school.github.io/irinanikolaeva0208-JSFEPRESCHOOL2022Q2/momentum">Momentum</a></li>
+                    <li><a href="https://irinanikolaeva0208.github.io/eldritch-codejam/">Eldrich Horror helper</a></li>
+                </ul>
+            </div>
+            <footer>
+                <a href="https://github.com/IrinaNikolaeva0208"><img src="assets/svg/github-logo_icon-icons.com_73546.svg" alt="GitHub"></a>
+                <p>© 2022 </p>
+                <a id="course" href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rsschool"></a>
+            </footer>
+        </div>
+    </main>
 </body>
 </html>
