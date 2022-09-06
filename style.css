@@ -1,5 +1,5 @@
 body {
-    background-color: #63a9a949;
+    background-color: #ae9e49;
 }
 
 html {
@@ -11,7 +11,7 @@ main {
     width: 1000px;
     height: 1300px;
     margin: auto;
-    box-shadow: 0 0 10px 15px rgb(122, 122, 122);
+    box-shadow: 0 0 10px 15px rgb(113, 107, 48);
     font-family: 'Josefin Sans', sans-serif;
     background-color: white;
 }
@@ -19,16 +19,37 @@ main {
 header {
     height: 70px;
     width: 100%;
-    background-color: darkslategrey;
+    background-color: #9e880c
 }
 
 nav {
-  margin: 20px;
+    margin: 20px;
+}
+
+nav ul {
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
 }
 
 li img {
     width: 30px;
     height: 30px;
+    margin-right: 10px;
+}
+
+.cont{
+    padding-left: 20px;
+}
+
+img[alt= 'phone'] {
+    width: 20px;
+    height: 20px;
+}
+
+#edu+ul, #lang+ul {
+    padding-left: 0px;
+    margin-left: 50px;
 }
 
 .cont {
@@ -38,17 +59,36 @@ li img {
 nav a {
     text-decoration: none;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     padding: 8px;
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    color: #5f5208;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
 }
 
 .lside {
     width: 1000px;
-    background-color: #424242;
+    background-color: #5f5208;
 }
 
 .lside > img {
     width: 100%;
+}
+
+#proj+ul a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+#proj+ul a:hover {
+    color: #9e880c;
 }
 
 .rside {
@@ -60,13 +100,12 @@ nav a {
 
 ul {
     list-style: square;
-    line-height: 30px;
+    line-height: 28px;
 }
 
-.lside span {
+.lside  {
     color: white;
     font-size: 18px;
-    padding-right: 30px;
 }
 
 .lside h2 {
@@ -79,19 +118,9 @@ ul {
 line-height: 40px;
 }
 
-table {
-    margin: 0 auto;
-}
-
-td {
-    vertical-align: middle;
-} 
-
 .cont img {
-    
     vertical-align: middle;
 }
-
 
 .info {
     padding: 5%;
@@ -99,7 +128,7 @@ td {
 
 .info h2 {
     text-align: right;
-    color: #2f4f4f;
+    color: #5f5208;
     font-size: 36px;
     font-family: 'Acme', sans-serif;
 }
